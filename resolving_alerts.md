@@ -1,4 +1,4 @@
-# Fielding Alerts
+# Resolving Alerts
 
 #### Rationale
 time sensitive
