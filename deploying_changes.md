@@ -22,8 +22,8 @@ These processes should ensure:
  - We write code that is ["Hot Compatible"](hot_compatibility.md) so that deploys have as little impact on running software as possible.
  - Developers [work on topic branches](git_flow.md) and [create Pull Requests](pull_requests.md) so that we can track changes and deploy them independently of each other.
  - Another developer (usually the Project Maintainer) [reviews the Pull Request](code_review.md). Code Review helps to disseminate insights, prevent regressions, and improve the quality of the codebase.
- - We [deploy Pull Requests to staging](deploying_to_staging.md) and ["snag a tester"](testing.md) when they require testing.
- - Project Maintainers regularly merge Pull Requests that have passed testing and review, and [deploy them to Production](deploying_to_production.md).
+ - We [deploy Pull Requests to staging](deploying_changes/staging.md) and ["snag a tester"](testing.md) when they require testing.
+ - Project Maintainers regularly merge Pull Requests that have passed testing and review, and [deploy them to Production](deploying_changes/production.md).
 
 
 #### Related Topics
