@@ -1,4 +1,4 @@
-# Designing Features
+# Designing Products
 
 #### Rationale
 
