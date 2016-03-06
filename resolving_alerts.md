@@ -17,10 +17,11 @@ Our Alerts process should ensure:
 #### Procedures
 
  - We monitor the [Alerts Dashboard](http://houst.in/alerts/dashboard) or the #alerts channel in Slack and assign them quickly so that developers have as much leeway as possible to manage their own time for closing alerts.
- - We strive to [close alerts](closing_alerts.md) within 2 business days.
+ - We strive to close alerts within 2 business days.
+    - @boblail: TODO
  - We write code according to our [style guides](https://github.com/cph/style-guides) so our codebases are as readable as possible.
- - We guard critical logic with [unit tests](test_driven_development.md) to protect against regressions and to support [refactoring](refactoring.md).
- - We make changes ["Hot Compatible"](hot_compatibility.md), work on [topic branches](git_flow.md), and [create Pull Requests](pull_requests.md) to facilitate [testing, code-reviewing, and deploying our changes](deploying_changes.md)
+ - We guard critical logic with [unit tests](developing_features/test_driven_development.md) to protect against regressions and to support refactoring.
+ - We make changes ["Hot Compatible"](developing_features/hot_compatibility.md), work on [topic branches](developing_features/git_flow.md), and [create Pull Requests](developing_features/pull_requests.md) to facilitate [testing, code-reviewing, and deploying our changes](deploying_changes.md)
 
 
 #### Related Topics

@@ -11,5 +11,5 @@ Our essential responsibilities are:
 
 Click on each to find detail about our processes.
 
-Clone this repo and create a pull request to [propose changes to our process](changing_the_desktop_procedures.md).
+Clone this repo and create a pull request to [propose changes to our process](self/changing.md).
 

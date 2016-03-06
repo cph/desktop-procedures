@@ -4,7 +4,7 @@ There are three types of articles:
 
 ##### Essential Responsibilities
 
-These are the [six main articles](README.md) and are formatted as follows:
+These are the [six main articles](https://github.com/cph/desktop-procedures) and are formatted as follows:
 
  - Each has four sections:
     1. **Rationale** (_optional_) can provide background information for the article's Goals.

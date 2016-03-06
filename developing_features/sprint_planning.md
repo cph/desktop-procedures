@@ -1,5 +1,9 @@
 # [Developing Features](../developing_features.md) / Sprint Planning
 
+
+@kobsy: TODO
+
+
 #### Tools Used
 
  - [The Sprint view](https://houst.in/sprints/current) (Houston)

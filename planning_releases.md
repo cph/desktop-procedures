@@ -1,23 +1,17 @@
 # Planning Releases
 
-#### Rationale
-contribute to product vision
-contribute to product strategy
-contribute to business planning
-viability
-consult
-research
 
-#### Tools Used
-feedback
-roadmaps
+@boblail: TODO
+
+
+#### Rationale
+
+#### Goals
 
 #### Procedures
-sprint planning
-weekly incubations
-quarterly roadmapping
 
 #### Related Topics
-estimating
-user research
-product design
+
+ - [Designing Products](designing_products.md)
+ - [Developing Features](developing_features.md)
+ - [Resolving Alerts](resolving_alerts.md)

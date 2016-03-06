@@ -1,16 +1,14 @@
 # Operating Applications
 
-#### Rationale
-reliability
-stability
-security
-performance
-(not core -> engineyard, heroku, amazon)
 
-#### Tools Used
-engineyard, heroku, amazon
+@boblail: TODO
+
+
+#### Rationale
+
+#### Goals
 
 #### Procedures
 
 #### Related Topics
-wiki of howtos
+
