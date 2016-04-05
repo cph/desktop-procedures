@@ -7,6 +7,8 @@ Product Development is an activity that generates a tremendous amount of informa
 
 At the same time, the process of _planning_ is our first opportunity to anticipate research and design needs or architectural constraints. And plans themselves allow us to synchronize work with other teams like Marketing and Support.
 
+Our planning process should be characterized by transparency, late-binding (making decisions at "the last responsible moment"), and progressive definition.
+
 
 #### Goals
 
@@ -14,9 +16,7 @@ Our planning process should maximize three things:
 
  1. Our access to information about our customers
  2. Our ability to change plans in response to new information
- 3. The visibility of our plans
-
-(The process is also designed for _late-binding:_ for making decisions "at the last responsible moment" as Mary Poppendieck puts it.)
+ 3. The visibility of our plans and transparency of our planning
 
 
 #### Procedures
