@@ -3,22 +3,34 @@
 
 #### Rationale
 
-There are some changes (like fixing a bug for a customer or applying a patch for a recently-disclosed exploit) that do not fit our process of [planning releases](planning_releases.md) for two reasons: (1) they need to be resolved in a smaller time frame in order for us to maintain a particular promise to our customers (i.e. of Support or Security); and (2) they tend to be smaller tasks (minutes/hours of effort rather than days/weeks) so that [Roadmapping](planning_releases.md) would be overkill for scheduling them.
+There are some tasks that do not fit our process of [planning releases](planning_releases.md) for two reasons:
+  1. they need to be resolved quickly for us to maintain a particular promise to our customers (i.e. of Support or Security)
+  2. they tend to be smaller tasks (minutes/hours of effort rather than days/weeks)
+
+The Alerts process creates a shortcut around [Roadmapping](planning_releases/roadmapping.md) to improve our response time for relatively urgent issues while cutting down on unnecessary process.
 
 
 #### Goals
 
-Our Alerts process should ensure:
-  1. that bugs blocking Customer Success with the product's current feature set, regressions, questions from the Support Team, and security vulnerabilities are resolved quickly
+This process should ensure:
+  1. that regressions, questions from the Support Team, and security vulnerabilities are resolved quickly
   2. that processes involving Alerts (creating, assigning, scheduling, and resolving them) are exceptionally lightweight
   3. that the Alerts "shortcut" isn't abused for work that ought to be [roadmapped](planning_releases.md)
 
 
+###### What count as Alerts?
+
+ - Questions from the Support Team
+ - Regressions: behavior that we unintentionally removed or broke in a recent release
+ - Security Vulnerabilities (if a CVE is identified for one of our dependencies, but the vulnerability could not actually be exploited in our codebase, the alert can be closed)
+ - Exceptions (if an Exception is both unreproducible _and_ didn't affect the customer's experience (e.g. it was raised from a background job that was subsequently retried), the alert can be ignored)
+
+
 #### Procedures
 
- - We monitor the [Alerts Dashboard](http://houst.in/alerts/dashboard) or the #alerts channel in Slack and assign them quickly so that developers have as much leeway as possible to manage their own time for closing alerts.
+ - We monitor the [Alerts Dashboard](http://houst.in/alerts/dashboard) or the #alerts channel in Slack and assign new alerts quickly. This gives the assigned developer as much time as possible to work on it.
  - We strive to close alerts within 2 business days.
-    - @boblail: TODO
+ - If an alert is going to take longer than a few hours to fix, the developer fielding it should see if the problem can be addressed _now_ with a shallower solution while deferring a deeper solution to Roadmapping. If a shallower solution isn't available, the developer should work with Bob to figure out if the Alert should be deferred until we can define a solid rubric for that here.
  - We write code according to our [style guides](https://github.com/cph/style-guides) so our codebases are as readable as possible.
  - We guard critical logic with [unit tests](developing_features/test_driven_development.md) to protect against regressions and to support refactoring.
  - We make changes ["Hot Compatible"](developing_features/hot_compatibility.md), work on [topic branches](developing_features/git_flow.md), and [create Pull Requests](developing_features/pull_requests.md) to facilitate [testing, code-reviewing, and deploying our changes](deploying_changes.md)
