@@ -5,7 +5,7 @@
 
 We want to get new features and fixes into customer's hands as quickly as possible. We also _don't_ want features and fixes to stack up because [large batch sizes can slow us down](https://yow.eventer.com/yow-2012-1012/the-practical-science-of-batch-size-by-don-reinertsen-1269). If we are to deploy frequently, we need (all the more) for deploys to be fast and to be free of adverse side-effects.
 
-Meanwhile, other teams have processes (like updating documentation or announcing releases) that need to be tied to certain deploys, and those efforts should be synchronized.
+Meanwhile, other teams have processes (e.g. updating documentation, announcing releases) that need to be tied to certain deploys, and those efforts should be synchronized.
 
 
 #### Goals
