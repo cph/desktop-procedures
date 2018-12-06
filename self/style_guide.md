@@ -21,6 +21,7 @@ Any other procedure is formatted as follows:
    1. **Rationale** (_optional_) can provide background information about the procedure.
    2. **Tools Used** (_optional_) lists the programs (or [ep](https://github.com/cph/ep) commands or [Houston](https://github.com/cph/our-houston) views) that are used during the procedure.
    3. **Procedure** describes, in detail, how this task is currently done.
+ - Write tersely and use lists to make these digestible.
 
 
 ##### Support Articles
