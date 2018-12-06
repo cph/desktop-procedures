@@ -6,7 +6,8 @@ If "how we work" was a codebase, we'd have the same ideals for it that we do for
  - We'd want fast deploys so that our teammates could benefit from improvements quickly.
  - We'd want it to be easy to change.
  - We'd want a `script/bootstrap` so new coworkers could hit the ground running.
- - We'd want test-specs so we know whether a process is working and `git blame` so we could see why it got added.
+ - We'd want test-specs so we know whether a process is working.
+ - We'd want a `git blame` so we could see why a process got added.
 
 That's why:
  - We keep our desktop procedures on the Web, so they're always up-to-date.
