@@ -32,7 +32,7 @@ This process should ensure:
  - We strive to close alerts within 2 business days.
  - If an alert is going to take longer than a few hours to fix, the developer fielding it should see if the problem can be addressed _now_ with a shallower solution while deferring a deeper solution to Roadmapping. If a shallower solution isn't available, the developer should work with Bob to figure out if the Alert should be deferred until we can define a solid rubric for that here.
  - We write code according to our [style guides](https://github.com/cph/style-guides) so our codebases are as readable as possible.
- - We guard critical logic with [unit tests](developing_features/test_driven_development.md) to protect against regressions and to support refactoring.
+ - We [guard critical logic with unit tests](developing_features/automated_tests.md) to protect against regressions and to support refactoring.
  - We make changes ["Hot Compatible"](developing_features/hot_compatibility.md), work on [topic branches](developing_features/git_flow.md), and [create Pull Requests](developing_features/pull_requests.md) to facilitate [testing, code-reviewing, and deploying our changes](deploying_changes.md)
 
 
