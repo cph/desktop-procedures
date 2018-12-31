@@ -11,6 +11,7 @@ Pull requests are the central hub for feature development. They allow for easy t
 #### Goals
 
 These procedures should ensure:
+
  - that features are able to be easily tested and code-reviewed
  - that the state of features are centrally tracked
  - that automatic checks are able to run before merging and deploying a feature

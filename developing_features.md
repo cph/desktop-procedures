@@ -4,9 +4,10 @@
 #### Goals
 
 These processes should ensure:
-  1. that we're building that right thing
-  2. that what we're building is reliable and maintainable
-  3. that our progress is visible
+
+ 1. that we're building that right thing
+ 2. that what we're building is reliable and maintainable
+ 3. that our progress is visible
 
 
 #### Procedures

@@ -13,9 +13,10 @@ The Alerts process creates a shortcut around [Roadmapping](planning_releases/roa
 #### Goals
 
 This process should ensure:
-  1. that regressions, questions from the Support Team, and security vulnerabilities are resolved quickly
-  2. that processes involving Alerts (creating, assigning, scheduling, and resolving them) are exceptionally lightweight
-  3. that the Alerts "shortcut" isn't abused for work that ought to be [roadmapped](planning_releases.md)
+
+ 1. that regressions, questions from the Support Team, and security vulnerabilities are resolved quickly
+ 2. that processes involving Alerts (creating, assigning, scheduling, and resolving them) are exceptionally lightweight
+ 3. that the Alerts "shortcut" isn't abused for work that ought to be [roadmapped](planning_releases.md)
 
 
 ###### What count as Alerts?
