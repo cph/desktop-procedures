@@ -7,7 +7,7 @@ Product Development is an activity that generates a tremendous amount of informa
 
 At the same time, the process of _planning_ is our first opportunity to anticipate research and design needs or architectural constraints. And plans themselves allow us to synchronize work with other teams like Marketing and Support.
 
-Our planning process should be characterized by transparency, late-binding (making decisions at "the last responsible moment"), and progressive definition.
+Our planning process should be characterized by transparency, [late-binding](reference/late_binding.md), and progressive definition.
 
 
 #### Goals
