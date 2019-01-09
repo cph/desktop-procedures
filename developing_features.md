@@ -23,4 +23,8 @@ These processes should ensure:
 
  - [Planning Releases](planning_releases.md)
  - [Deploying Changes](deploying_changes.md)
+
+#### Guides
+
+ - [Setting Up a New Project](developing_features/guides/new_project.md)
  - [Updating our Icon Fonts](designing_products/ui_guide/icon_fonts.md)
