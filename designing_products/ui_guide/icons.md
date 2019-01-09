@@ -12,14 +12,15 @@ We develop custom icon sets for our products for two reasons:
 
 ###### "Reading" the interface
 
-Icons are poor at _revealing_ or _explaining_ new features to users. They are not a tool for discoverability, but they are useful in two scenarios:
+Icons are poor at **_revealing_** or **_explaining_** new features to users. They are not a tool for aiding discoverability, but they are useful in two scenarios:
 
 1. A user has a feature in mind, scans a toolbar for it, and tries icons that remind him of the feature he wants.
 2. A user discovers new features by reading text in menus. The text is paired with a memorable icon and, after learning the association, the user doesn't have to read the text, she recognizes the option by its icon.
 
-Notes:
-- The association between text and icon doesn't have to be self-evident; it only has to be memorable _after the association is made._
-- In both cases, the user has the feature in mind; the icon serves as a mnemonic or metonymy for it.
+###### Conclusions
+
+- In the second scenario, the association between text and icon doesn't have to be self-evident; it only has to be memorable _after the association is made._
+- In both scenarios, the user has the wanted feature in mind and the icon serves as a mnemonic or metonymy for it.
 
 
 #### Processes

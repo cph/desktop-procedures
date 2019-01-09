@@ -11,10 +11,11 @@ Meanwhile, other teams have processes (e.g. updating documentation, announcing r
 #### Goals
 
 These processes should ensure:
-  1. that regressions are minimized
-  2. that deploying is resilient and reliable
-  3. that deploying is inexpensive (so that deploys can be done frequently)
-  4. that colleagues are informed of releases
+
+ 1. that regressions are minimized
+ 2. that deploying is resilient and reliable
+ 3. that deploying is inexpensive (so that deploys can be done frequently)
+ 4. that colleagues are informed of releases
 
 
 #### Procedures

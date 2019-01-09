@@ -3,6 +3,7 @@
 #### Goals
 
 This process helps us to:
+
  - identify questions (and obstacles) sooner
  - estimate the scope of the project more accurately
  - break hard problems into simple ones
