@@ -26,6 +26,7 @@ These processes should ensure:
     - **Regressions:** behavior that we unintentionally removed or broke in a recent release
     - **Security Vulnerabilities**
     - **Exceptions**
+    - **Lies:** when a product gives false information in a report
  - We assign Alerts quickly to give the assigned developer as much time as possible to work on it.
  - We strive to close alerts within 2 business days.
    > If an alert is going to take longer than a few hours to fix, the developer fielding it should see if the problem can be addressed _now_ with a shallower solution while deferring a deeper solution to Roadmapping. If a shallower solution isn't available, the developer should work with their Manager to figure out if the Alert should be deferred until we can define a solid rubric for that here.
