@@ -24,7 +24,7 @@ and for monitoring:
 
  - Alertra for reliability
  - Skylight for performance
- - BeyondTrust for security
+ - GitHub for vulnerabilities
 
 
 #### Procedures
