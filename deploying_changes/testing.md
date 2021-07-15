@@ -31,6 +31,7 @@ The normal procedure is to have all pull requests tested by the testers. However
   - The findings listed in this new section should be preceded by checkboxes so that, once addressed, they can be checked off by the tester as with the checkboxes under the testing instructions.
   - Descriptions of the issues encountered should be as descriptive as possible, indicating the encountered behavior, as well as steps to reproduce that behavior. Screenshots and/or `.gifs` of the issue may also be included to help the developers diagnose the problem.
   - Once a developer has addressed a test finding, they may place a `:star:` or `:star2:` emoji at the beginning of the description to indicate to the testers that the issue has been addressed.
+- Occasionally, an issue will be found in testing that was not introduced by the pull request (i.e., it also exists on production). In this case, the tester should create a separate Alert for the bug rather than tying it to the pull request.
 
 ###### Suggestions
 
