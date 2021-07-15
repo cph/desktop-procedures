@@ -17,7 +17,7 @@
      - to evaluate whether the Pull Request would be [hot compatible](developing_features/hot_compatibility.md) or not
      - to understand the intention of the code
      - to see whether the code's style, architecture, or idioms fits with the conventions of the rest of the codebase
-     - to make recommendations if the code could communicate more clearly or structured more cleanly
+     - to make recommendations if the code could communicate more clearly or be structured more cleanly
  - After reviewing a Pull Request, remove the `review-needed` label and add:
      - `review-pass` if the Pull Request can be deployed with no further work
      - `review-pass` + `suggestions` if the Pull Request is OK to be deployed, but you've made suggestions for the committer to consider

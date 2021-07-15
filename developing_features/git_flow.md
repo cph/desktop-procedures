@@ -24,7 +24,7 @@ These processes should make it as easy as possible:
    > - Pull `master`* before creating a branch
    > - Rebase topic branches off of `master`* when `master`* changes
    >
-   > <br> &#42; When a project has a beta environment, we've also had a branch off of <code>master</code> named <code>beta</code>. In this case, hotfixes are always based off <code>master</code> and new features are based off of <code>beta</code>.
+   > <br> &#42; Newer projects default to using `main` as the default branch to match updated tooling. When a project has a beta environment, we've also had a branch off of <code>master</code> named <code>beta</code>. In this case, hotfixes are always based off <code>master</code> and new features are based off of <code>beta</code>.
  - We make our commits discrete, atomic, and succinct in order to better communicate their intention.
    > - Break separate logical changes into separate commits
    > - Don't commit partial work; no commit should knowingly leave the project in a broken state

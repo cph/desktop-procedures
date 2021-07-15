@@ -34,6 +34,7 @@ These processes should ensure:
    > If a CVE is identified for one of our dependencies, but the vulnerability could not actually be exploited in our codebase, the alert can be closed.
    >
    > If an Exception is both unreproducible _and_ didn't affect the customer's experience (e.g. it was raised from a background job that was subsequently retried), the alert can be ignored.
+ - If an issue is small, clearly-defined, and not urgent (i.e., it neither qualifies as an alert nor needs full incubation or roadmapping), it _may_ be labelled as a `bug` instead of an `alert` and added to the list of Refactor Tasks, which may be drawn from during built-in downtime on the roadmap.
  - We follow our [style guides](https://github.com/cph/style-guides) to make it as easy as possible to read each other's code (as during code review, troubleshooting, or getting familiar with a new project)
  - We [guard critical logic with unit tests](developing_features/automated_tests.md) to protect against regressions and to support refactoring.
  - We make changes ["Hot Compatible"](developing_features/hot_compatibility.md), work on [topic branches](developing_features/git_flow.md), and [create Pull Requests](developing_features/pull_requests.md) to facilitate [testing, code-reviewing, and deploying our changes](deploying_changes.md)
@@ -41,7 +42,7 @@ These processes should ensure:
 
 #### Tools
 
- - the [Alerts Dashboard](http://houst.in/alerts/dashboard)
+ - Alerts in [GitHub Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Acph+label%3Aalert+user%3Aopenxml+user%3Ahouston+sort%3Acreated-asc)
 
 
 #### Related Topics

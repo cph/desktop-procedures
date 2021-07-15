@@ -13,14 +13,13 @@ This process helps us to:
 #### Tools Used
 
  - [Project Roadmaps](https://houst.in/roadmaps) (Houston)
- - Todoist
+ - A todo app
 
 
 #### Procedures
 
- - Create projects in Todoist that correspond to milestones in the Roadmap
- - Link Todoist Projects to Roadmap Milestones so that the Roadmap can show progress
- - Slice Milestones into smaller tasks. As a rule of thumb, **tasks should take four hours or less to complete**.
+ - Create a project in your todo app that corresponds to a milestone in the Roadmap
+ - Slice Milestones into smaller tasks in the todo app project. As a rule of thumb, **tasks should take four hours or less to complete**.
 
 
 #### Related Topics
