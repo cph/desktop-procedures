@@ -14,8 +14,8 @@ We develop custom icon sets for our products for two reasons:
 
 Icons are poor at **_revealing_** or **_explaining_** new features to users. They are not a tool for aiding discoverability, but they are useful in two scenarios:
 
-1. A user has a feature in mind, scans a toolbar for it, and tries icons that remind him of the feature he wants.
-2. A user discovers new features by reading text in menus. The text is paired with a memorable icon and, after learning the association, the user doesn't have to read the text, she recognizes the option by its icon.
+1. A user has a feature in mind, scans a toolbar for it, and tries icons that remind them of the feature they want.
+2. A user discovers new features by reading text in menus. The text is paired with a memorable icon and, after learning the association, the user doesn't have to read the text, they recognize the option by its icon.
 
 ###### Conclusions
 
@@ -37,7 +37,7 @@ Icons are poor at **_revealing_** or **_explaining_** new features to users. The
 >
 > Sometimes I'd have already decided on a visual noun before I messaged Sara; sometimes we'd explore several at once; and sometimes I'd ask Sara to help me think of more visual nouns.
 >
-> Once we'd picked the visual noun, Sara would create icons and slack them back. We'd then iterate on them until they fit well with the rest of the icons in the set and looked good in the app.
+> Once we'd picked the visual noun, Sara would create icons and slack them back. We'd then iterate on them until they fit well with the rest of the icons in the set and look good in the app.
 
 
 #### Related Topics
