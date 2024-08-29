@@ -42,7 +42,7 @@ These processes should ensure:
 
 #### Tools
 
- - Alerts in [GitHub Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Acph+label%3Aalert+user%3Aopenxml+user%3Ahouston+sort%3Acreated-asc)
+ - Alerts [Here](https://ep-grand-central.herokuapp.com/dashboards/alerts?scroll=1)
 
 
 #### Related Topics
