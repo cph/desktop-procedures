@@ -12,11 +12,11 @@
 
  - Before deploying, check if another pull request is on Staging and in active testing.
   
-   You can see what's on Staging by looking at the [Staging Dashboard](http://houst.in/dashboards/staging), by using the `/staging` command in Slack, or by asking Houston `what's on staging?`. If you are using Slack to deploy your pull request (see below), Houston will check for you.
+   You can see what's on Staging by looking at the [GitHub](https://github.com/search?q=org%3Acph+is%3Apr+label%3Aon-staging%2Con-staging2+is%3Aopen&type=pullrequests). If you're using `ep deploy`, it will check for you.
 
  - Deploying with `ep deploy`
    
-   In a terminal window, on the branch you want to deploy, type `ep deploy`
+   In a terminal window, on the branch you want to deploy, type `ep deploy`. You can also manually specify a branch name (helpful when using `jj`) by running `ep deploy --branch=branch-name`.
 
  - Deploying using environment-specific commands **(not recommended)**
 

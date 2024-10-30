@@ -18,6 +18,7 @@ Presently, we use:
  - Heroku to host our applications
      - it already hosts our Postgres databases
      - its tools and buildpacks are actively maintained with recent versions of Ruby, Node.js, etc.
+ - Various AWS services as needed for particular product features. E.g., CloudFront to cache Builder's assets, EC2 load balancers for SSL in Unite, etc.
 
 and for monitoring:
 
@@ -29,7 +30,7 @@ and for monitoring:
 #### Procedures
 
  - We design applications to serve static assets from S3 rather than from the application's server. This is more cost-effective and performant.
- - We require our application servers to support hot restarts (as Heroku and Unicorn do) so that our deploys don't impact our customers' experience. This allows us to deploy more frequently which, in turn, reduces batch sizes and cylce time.
+ - We require our application servers to support hot restarts (as Heroku and Puma do) so that our deploys don't impact our customers' experience. This allows us to deploy more frequently which, in turn, reduces batch sizes and cylce time.
  - Project Maintainers receive text messages from Alertra whenever a project they maintain is down. This allows them to respond to downtime as soon as they are able.
  - When an application requires additional software to be installed on its production server, we add that software through a scripted mechanism (e.g., buildpacks on Heroku). This makes that bit of configuration applicable to new dynos, which makes our infrastructure more easily scalable.
 
