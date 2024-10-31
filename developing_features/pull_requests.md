@@ -10,8 +10,8 @@ We create a pull request for every change in order to:
 #### Procedures
 
  - Work on [topic branches](git_flow.md)
- - Push your work to [GitHub](https://github.com) (`git push origin <branch-name>`) and create a pull request against `master`*
-   > \* When a project has a beta environment, we've also had a branch off of `master` named `beta`. In this case, hotfixes are always based off `master` and new features are based off of `beta`.
+ - Push your work to [GitHub](https://github.com) (`git push origin <branch-name>`) and create a pull request against `main`*
+   > \* When a project has a beta environment, we've also had a branch off of `main` named `beta`. In this case, hotfixes are always based off `main` and new features are based off of `beta`.
  - Add the `review-needed` label to every pull request
    > Sometimes a pull request isn't ready for review immediately. In this case, add the `wip` label instead of the `review-needed` label until the PR _is_ ready to be reviewed.
  - Add the `hotfix` label to every pull request that resolves an Alert

@@ -3,7 +3,7 @@
 
 #### Tools Used
 
- - Houston's [Pulls Kanban](http://houst.in/dashboards/pulls) or [Pulls View](http://houst.in/pulls)
+ - [Pulls Dashboard](https://ep-grand-central.herokuapp.com/dashboards/pulls)
  - GitHub
 
 

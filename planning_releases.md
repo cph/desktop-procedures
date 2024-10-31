@@ -24,16 +24,21 @@ Our planning process should maximize:
 #### Procedures
 
  - We gather feedback from our customers through Sales, Support, and research into one place where it can be categorized and searched.
- - Product Teams meet quarterly for [Roadmapping](planning_releases/roadmapping.md). These longer meetings allow them to review feedback and revise goals (a.k.a. milestones) for the upcoming quarter.
- - Product Teams with active roadmaps meet weekly for [Incubation](planning_releases/incubation.md). These meetings allow teams to check in frequently and to progressively define upcoming milestones.
+ - Product Teams meet quarterly for [Roadmapping](planning_releases/roadmapping.md). These longer meetings allow them to review feedback and revise goals for upcoming quarters.
+ - Product Teams with active roadmaps discuss questions that arise during development asynchronously via either the `#ep-incubation` channel in Slack or -- for longer discussions -- via [GitHub Discussions](https://github.com/orgs/cph/discussions). Having as much conversation as possible this way both keeps our weekly meetings focused and naturally documents discussions and decisions made.
+ - Product Teams with active roadmaps also meet weekly for [Incubation](planning_releases/incubation.md). These meetings allow teams to check in regularly and facilitate real-time refinement of milestones.
  - When Product Teams identify gaps in their understanding of customers, the Product Designer and UX Team conduct research to fill them.
- - Ahead of upcoming milestones, Product Designers turn goals into specific User Stories and specify how new features should look and behave.
+ - Ahead of upcoming cycles, Product Designers shape goals into a more concrete Proposal that outlines the work to be done, including how the feature or changes should look and behave.
+ - Before the cycle starts, Product Teams place shaped Proposals onto the Roadmap and commit to working on those features during the cycle. Unshaped work **is not placed on the Roadmap**.
  - At the start of a milestone, developers [break User Stories into specific tasks](developing_features/task_slicing.md).
 
 
 #### Tools
 
 - Houston Feedback
+- [Jira](https://concordiapublishing.atlassian.net/jira/software/projects/EP/boards/5/timeline)
+- [Roadmap Visualization](http://ep-grand-central.herokuapp.com/dashboards/roadmap)
+- [GitHub Discussions](https://github.com/orgs/cph/discussions)
 
 
 #### Related Topics

@@ -9,7 +9,8 @@ Our [planning process](../planning_releases.md) tries to achieve transparency, l
 #### Tools Used
 
  - Houston Feedback
- - Houston Roadmaps
+ - [Jira](https://concordiapublishing.atlassian.net/jira/software/projects/EP/boards/5/timeline)
+ - [Roadmap Visualization](http://ep-grand-central.herokuapp.com/dashboards/roadmap)
 
 
 #### Procedure
@@ -28,7 +29,7 @@ Our [planning process](../planning_releases.md) tries to achieve transparency, l
 ###### During Roadmapping
 
  - The Product Designer may make an official report summarizing and synthesizing feedback.
- - The team should come to a consensus about the next quarter's milestones.
+ - The team should come to a consensus about the upcoming quarters' goals.
 
 ###### After Roadmapping
 
